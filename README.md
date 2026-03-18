@@ -1,25 +1,44 @@
 # PhonePe Pulse Data Analysis
-End-to-end data analysis of PhonePe Pulse dataset using Python, SQL, and Power BI dashboards
 
-## Project Overview
-This project analyzes PhonePe Pulse dataset to extract insights on transactions, users, and insurance trends across India.
+## 📌 Overview
 
-## Tools Used
-- Python (pandas, JSON)
-- SQL
-- Power BI
+This project analyzes large-scale digital transaction data from the PhonePe Pulse dataset to understand trends in payments, users, and insurance across India.
 
-## Key Work
-- Extracted JSON data from PhonePe Pulse GitHub dataset
-- Cleaned and transformed data using Python
-- Converted raw data into structured CSV format
-- Created datasets for analytics and dashboarding
+## 🛠 Tech Stack
 
-## Output Datasets
-- Aggregated Transactions
-- Map Transactions
-- Users Data
-- Insurance Data
+* Python (pandas, JSON)
+* SQL
+* Power BI
+* Excel
 
-## Project Purpose
-To understand digital payment trends and perform data-driven analysis.
+## ⚙️ Data Processing
+
+* Extracted nested JSON data from PhonePe Pulse GitHub repository
+* Cleaned and transformed data using Python
+* Converted raw data into structured CSV datasets
+* Handled missing and complex hierarchical data using safe parsing techniques
+
+## 📊 Output Datasets
+
+* Aggregated Transactions (state-wise)
+* Map Transactions (district-level)
+* User Data (app usage, registrations)
+* Insurance Data
+* Top-performing regions
+
+## 📈 Use Cases
+
+* Regional transaction analysis
+* Growth trend identification
+* Dashboard creation in Power BI
+
+## 🚀 Key Learning
+
+* Handling real-world large JSON datasets
+* Data cleaning and transformation
+* Building structured datasets for analytics
+
+## 🔗 GitHub Structure
+
+* main_pipeline.py → Data extraction and processing
+* output/ → Final datasets used for analysis
